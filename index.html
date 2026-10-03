@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muster</title>
+<meta name="description" content="Muster: a personal tasks, calendar and alarm app for Android.">
+<style>
+  :root { --bg:#0f1115; --card:#181b22; --text:#e8eaf0; --muted:#a3a9b6; --accent:#7aa2ff; }
+  @media (prefers-color-scheme: light) { :root { --bg:#f6f7fb; --card:#ffffff; --text:#14161c; --muted:#5b6170; --accent:#3b6fe0; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:56px 20px 64px; }
+  h1 { font-size:44px; line-height:1.1; margin:0 0 8px; letter-spacing:-0.5px; }
+  .tag { color:var(--muted); font-size:19px; margin:0 0 36px; }
+  .card { background:var(--card); border-radius:18px; padding:22px 24px; margin:14px 0; }
+  .card h2 { font-size:18px; margin:0 0 4px; }
+  .card p { margin:0; color:var(--muted); }
+  a { color:var(--accent); }
+  footer { margin-top:40px; color:var(--muted); font-size:15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Muster</h1>
+  <p class="tag">Tasks, calendar and alarms in one place. A personal Android app by Sheepdog_Dev.</p>
+
+  <div class="card"><h2>Tasks &amp; lists</h2><p>Quick to-dos with reminders, repeating tasks and separate lists for things like vehicle work.</p></div>
+  <div class="card"><h2>Google Calendar</h2><p>Shows your upcoming events, can add your dated tasks to your calendar, and can set alarms before events you choose, such as shifts.</p></div>
+  <div class="card"><h2>Alarms that get you up</h2><p>Custom sounds and optional challenges you have to finish before the alarm turns off.</p></div>
+
+  <p>Muster has no servers and no accounts of its own. Everything stays on your phone, and it only talks to Google Calendar when you connect it.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a>
+  </footer>
+</main>
+</body>
+</html>
